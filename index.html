@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>canvasGamer test-demo</title>
+    <link rel="icon" type="image/GIF" href="res/favicon.ico"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="yes"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        body, canvas, div {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            -khtml-user-select: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+        canvas{
+            position:absolute;
+            top:10px;
+            left:50px;
+        }
+    </style>
+</head>
+<body style="padding:0; margin: 0; background: #000;">
+<canvas id="gameCanvas" width="1200" height="600"></canvas>
+<script src='frameworks/CGTool.js'></script>
+<script src='frameworks/CGLogInfo.js'></script>
+<script src='frameworks/CGGraph.js'></script>
+<script src='frameworks/CGClass.js'></script>
+<script src='frameworks/CGDirector.js'></script>
+<script src='frameworks/CGEvent.js'></script>
+<script src='frameworks/CGEventListener.js'></script>
+<script src='frameworks/CGEventManager.js'></script>
+<script src='frameworks/CGNode.js'></script>
+<script src='frameworks/CGScene.js'></script>
+<script src='frameworks/CGLayer.js'></script>
+<script src='frameworks/CGSprite.js'></script>
+<script src='frameworks/CGResource.js'></script>
+<script src='frameworks/CGMenu.js'></script>
+<script src='frameworks/CGAction.js'></script>
+<script src='frameworks/CGActionManager.js'></script>
+<script src='frameworks/CGAnimation.js'></script>
+<script src='frameworks/CGAnimationManager.js'></script>
+<script src='frameworks/CGRender.js'></script>
+<script src='frameworks/CGScheduler.js'></script>
+<script src='frameworks/CGPlayerContorl.js'></script>
+<script src='frameworks/CGGamer.js'></script>
+<script src='frameworks/CGLabelTTF.js'></script>
+
+<script src='src/startScene.js'></script>
+<script src='src/PlayScene.js'></script>
+<script src='src/SushiSprite.js'></script>
+<script src='main.js'></script>
+</body>
+</html>
